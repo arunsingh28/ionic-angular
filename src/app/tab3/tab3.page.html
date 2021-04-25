@@ -1,27 +1,40 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      About us
+    <ion-tab-button tab="home">
+    <ion-title class="back">
+      <ion-icon name="arrow-back-outline"></ion-icon> Back
     </ion-title>
+  </ion-tab-button>
   </ion-toolbar>
-</ion-header>
+
+  
 
 <ion-content [fullscreen]="true">
-  
-
   <ion-card>
-    <ion-card-header>
-      <ion-card-title>About Page</ion-card-title>
-    </ion-card-header>
-  
+    <img src="https://www.tajhotels.com/content/dam/ama/Our-hotels/madh-island/Carousel_Image.jpg/jcr:content/renditions/cq5dam.web.512.512.jpeg" class="img-center">
+    <ion-item>
+      <ion-icon name="pin" slot="start"></ion-icon>
+      <ion-label>
+        <ion-text color="secondary">
+          <h1>Hotel Delux</h1>
+        </ion-text>
+      </ion-label>
+    </ion-item>
     <ion-card-content>
-      <ion-text color="secondary">
-     <h3> Hotels Palaces Resorts and Safaris is recognised the world over for delivering exceptional hospitality, an amalgam of world-class refinement inspired by the heritage and nobility of Indian traditions.
-      With 98 hotels in 61 locations, including India, North America, United Kingdom, Africa, Middle East, Malaysia, Sri Lanka, Maldives, Bhutan and Nepal, our footprint extends across world-renowned landmark properties, best-in-class business hotels, idyllic island and hillside resorts, authentic grand palaces and ecologically sensitive wildlife safaris.
-     </h3>
-    </ion-text>
-    <img src="https://images.pexels.com/photos/1134176/pexels-photo-1134176.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" style="margin:20px auto;display: block;border-radius:10px; height: 400px;"/>
+      <ion-icon name="call-outline" slot="start"></ion-icon> Hotel Id : 11806879-1
+    </ion-card-content>
+    <ion-card-content>
+      <ion-icon name="bookmark-outline"></ion-icon> Name : Hotel Delux
+    </ion-card-content>
+    <ion-card-content>
+      <ion-icon name="star-half-outline"></ion-icon> Ratting : 4 Star
+    </ion-card-content>
+    <ion-card-content>
+      <ion-icon name="podium-outline"></ion-icon> Room Type : Delux Room
+    </ion-card-content>
+    <ion-card-content>
+      <ion-icon name="navigate-outline"></ion-icon> Address : Agra (U.P) 
     </ion-card-content>
   </ion-card>
-
 </ion-content>
+
